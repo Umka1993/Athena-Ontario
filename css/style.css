@@ -3169,7 +3169,7 @@ h1, h2, h3 {
     z-index: 21;
   }
   .quote__open .quote__content {
-    width: 375px;
+    width: 100%;
     padding: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
