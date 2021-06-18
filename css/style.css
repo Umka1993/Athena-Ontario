@@ -2595,6 +2595,7 @@ h1, h2, h3 {
   .map__col2 {
     max-width: 370px;
     margin: auto;
+    margin-top: 20px;
   }
   .map__col2 .form__title {
     text-align: center;
@@ -2770,6 +2771,185 @@ h1, h2, h3 {
   }
   .modal__content .modal__checkbox {
     margin-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .questions {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .questions__subtitle {
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 90%;
+  }
+  .questions .subtitle__form--wrapp {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .questions .subtitle__form--wrapp input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .questions .subtitle__form--wrapp input[id="message"] {
+    max-width: 100%;
+  }
+  .questions .subtitle__form--wrapp .Submit {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .questions .subtitle__form .subtitle__form--checkbox {
+    width: 80%;
+    text-align: left;
+    margin-left: 23px;
+  }
+  .questions .subtitle__form .subtitle__form--checkbox label {
+    margin-left: 0;
+  }
+  .questions .modal {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: fixed;
+    background-color: black;
+    top: 0;
+  }
+  .questions__content {
+    right: -100%;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 345px;
+    min-height: 645px;
+    padding-top: 0;
+  }
+  .modal {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: fixed;
+    background-color: black;
+    top: 0;
+  }
+  .modal__content {
+    right: -100%;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 345px;
+    min-height: 645px;
+    padding-top: 0;
+  }
+  .open__modal {
+    top: 0px;
+    right: 0;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
+    opacity: 1;
+    z-index: 21;
+  }
+  .open__modal .modal__content {
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+  }
+  .open__modal .modal__content--wrapp {
+    padding: 0 8px;
+    padding-bottom: 100px;
+  }
+  .open__modal .modal__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 16px 8px;
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .open__modal .modal__subtitle {
+    max-width: 90%;
+  }
+  .open__modal .modal__checkbox {
+    width: 80%;
+  }
+  .open__modal .close_modal_window {
+    position: absolute;
+    right: 0;
+    top: 585px;
+    right: 47%;
+  }
+  .open__modal .Submit {
+    padding: 14px 152px;
+  }
+  .wrapper {
+    background: var(--black);
+    -webkit-transition: all 0.1s 0s linear;
+    transition: all 0.1s 0s linear;
+  }
+  .quote {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: fixed;
+    background-color: black;
+  }
+  .quote__content {
+    right: -100%;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 345px;
+    min-height: 645px;
+  }
+  .quote__open {
+    top: 0px;
+    -webkit-transition: all 0 2s linear;
+    transition: all 0 2s linear;
+    right: 0;
+    -webkit-transition: all 0s ease;
+    transition: all 0s ease;
+    opacity: 1;
+    z-index: 21;
+  }
+  .quote__open .quote__content {
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 100%;
+  }
+  .quote__open .quote__content--wrapp {
+    padding: 0 8px;
+    padding-bottom: 100px;
+  }
+  .quote__open .quote__head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 16px 8px;
+    margin-bottom: 50px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .quote__open .quote__subtitle {
+    max-width: 90%;
+  }
+  .quote__open .close_quote_window {
+    position: absolute;
+    right: 0;
+    top: 585px;
+    right: 47%;
+  }
+  .wrapper {
+    background: var(--black);
+    -webkit-transition: all 0.1s 0s linear;
+    transition: all 0.1s 0s linear;
   }
 }
 
@@ -3098,7 +3278,6 @@ h1, h2, h3 {
     z-index: 21;
   }
   .open__modal .modal__content {
-    width: 375px;
     padding: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
