@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="./js/jquery-3.4.0.min.js"></script>
+    <!-- <script src="./js/jquery-3.4.0.min.js"></script> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link rel="shortcut icon" href="./img/Group17.svg" type="image/png">
     <title>Athena</title>
 
@@ -20,17 +22,17 @@
                     <ul class="header__menu">
 
                         <li>
-                            <a href="#">Our Services</a>
+                            <a href="#Our">Our Services</a>
                         </li>
 
 
                         <li>
-                            <a href="#">About Us</a>
+                            <a href="#About">About Us</a>
                         </li>
 
 
                         <li>
-                            <a href="#">Testimonials</a>
+                            <a href="#Testimonials">Testimonials</a>
                         </li>
 
                     </ul>
@@ -40,7 +42,7 @@
                     </div>
                     <!-- /.header__logo -->
                     <div class="header__contact">
-                        <a href="#">Contact Us</a>
+                        <a href="#footer">Contact Us</a>
                     </div>
                     <!-- /.header__contact -->
                     <div class="header__button">
@@ -147,7 +149,8 @@
             <!-- /.container -->
         </section>
         <!-- /.map -->
-        <section class="our">
+        <section class="our" name="Our">
+            <a href="#" name="Our"></a>
             <div class="container">
                 <div class="our__wrapp">
                     <div class="our__title section__title">
@@ -315,6 +318,7 @@
         </section>
         <!-- /.experience -->
         <section class="about_us">
+            <a href="#" name="About"></a>
             <div class="container">
                 <div class="about_us__wrapp">
                     <div class="about_us__title section__title">
@@ -358,90 +362,107 @@
             <!-- /.container -->
         </section>
         <!-- /.about_us -->
-        <section class="testimonials" id="testimonials">
-            <div class="wrapp__slider">
-            </div>
-            <!-- /.wrapp__slider -->
-            <div class="wrapp">
-                <div class="testimonials__slider">
-                    <div class="container">
-                        <div class="slider-block">
-                            <div class="slideblk">
-                                <!-- <img src="./img/quotes.svg" alt="кавычки"> -->
-                                <p class="slideblk__text">Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The
-                                    lawyer that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely
-                                    taken advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
-                                <p>
-                                    <span class="name">Richard D.</span>
-                                    <!-- /.name -->
-                                    <span class="day">05/2020</span>
-                                    <!-- /.day -->
-                                </p>
-                            </div>
-                            <!-- slideblk -->
-                            <div class="slideblk">
-                                <img src="" alt="">
-                                <p class="slideblk__text">Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The
-                                    lawyer that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely
-                                    taken advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
-                                <p>
-                                    <span class="name">Richard D.</span>
-                                    <!-- /.name -->
-                                    <span class="day">05/2020</span>
-                                    <!-- /.day -->
-                                </p>
-                            </div>
-                            <!-- slideblk -->
-                            <div class="slideblk">
-                                <img src="" alt="">
-                                <p class="slideblk__text">Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The
-                                    lawyer that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely
-                                    taken advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
-                                <p>
-                                    <span class="name">Richard D.</span>
-                                    <!-- /.name -->
-                                    <span class="day">05/2020</span>
-                                    <!-- /.day -->
-                                </p>
-                            </div>
-                            <!-- slideblk -->
-                            <div class="slideblk">
-                                <img src="" alt="">
-                                <p class="slideblk__text">Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The
-                                    lawyer that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely
-                                    taken advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
-                                <p>
-                                    <span class="name">Richard D.</span>
-                                    <!-- /.name -->
-                                    <span class="day">05/2020</span>
-                                    <!-- /.day -->
-                                </p>
-                            </div>
-                            <!-- slideblk -->
-                            <div class="slideblk">
-                                <img src="" alt="">
-                                <p class="slideblk__text">Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The
-                                    lawyer that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely
-                                    taken advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
-                                <p>
-                                    <span class="name">Richard D.</span>
-                                    <!-- /.name -->
-                                    <span class="day">05/2020</span>
-                                    <!-- /.day -->
-                                </p>
-                            </div>
-                            <!-- slideblk -->
-
+        <a href="#" name="Testimonials"></a>
+        <div class="testimonials">
+            <div class="testimonials__slider swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="testimonials__text">
+                            <p>Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The lawyer
+                                that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely taken
+                                advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
                         </div>
-                        <!-- slider-block -->
+                        <!-- /.testimonials__text -->
+                        <div class="testimonials__user">
+                            <span class="testimonials__name">Richard D.</span>
+                            <span class="testimonials__day">05/2020</span>
+                            <!-- /.testimonials__day -->
+                        </div>
+                        <!-- /.testimonials__user -->
+
                     </div>
-                    <!-- /.container -->
+                    <div class="swiper-slide">
+                        <div class="testimonials__text">
+                            <p>Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The lawyer
+                                that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely taken
+                                advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
+                        </div>
+                        <!-- /.testimonials__text -->
+                        <div class="testimonials__user">
+                            <span class="testimonials__name">Richard D.</span>
+                            <span class="testimonials__day">05/2020</span>
+                            <!-- /.testimonials__day -->
+                        </div>
+                        <!-- /.testimonials__usere -->
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials__text">
+                            <p>Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The lawyer
+                                that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely taken
+                                advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
+                        </div>
+                        <!-- /.testimonials__text -->
+                        <div class="testimonials__user">
+                            <span class="testimonials__name">Richard D.</span>
+                            <span class="testimonials__day">05/2020</span>
+                            <!-- /.testimonials__day -->
+                        </div>
+                        <!-- /.testimonials__user -->
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials__text">
+                            <p>Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The lawyer
+                                that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely taken
+                                advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
+                        </div>
+                        <!-- /.testimonials__text -->
+                        <div class="testimonials__user">
+                            <span class="testimonials__name">Richard D.</span>
+                            <span class="testimonials__day">05/2020</span>
+                            <!-- /.testimonials__day -->
+                        </div>
+                        <!-- /.testimonials__user -->
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials__text">
+                            <p>Since my divorce was an international case and had quite complex circumstances, many Canadian law firms turned me away. However, Athena provided me with no less than the friendliest legal services I’ve ever received. The lawyer
+                                that assisted me was dedicated and provided wonderful service every step of the way. Thank you, Olga, for helping me through one of the most challenging and complicated times of my life! I would have been completely taken
+                                advantage of if I hadn’t addressed you! I highly recommended Athena.</p>
+                        </div>
+                        <!-- /.testimonials__text -->
+                        <div class="testimonials__user">
+                            <span class="testimonials__name">Richard D.</span>
+                            <span class="testimonials__day">05/2020</span>
+                            <!-- /.testimonials__day -->
+                        </div>
+                        <!-- /.testimonials__user -->
+
+                    </div>
 
                 </div>
-                <!-- testimonials__slider -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- дотсы  -->
+                <div class="swiper-pagination"></div>
+                <!-- /.swiper-pagination -->
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
-            <!-- /.wrapp -->
-        </section>
+            <!-- /.testimonials__slider -->
+
+
+        </div>
         <!-- /.testimonials -->
         <section class="questions">
             <div class="container">
@@ -467,7 +488,7 @@
                             <!-- subtitle__form--wrapp -->
                             <div class="subtitle__form--checkbox">
                                 <input type="checkbox" id="subtitle__form--checkbox">
-                                <label for="subtitle__form--label">
+                                <label for="subtitle__form--checkbox">
                                     By clicking the button you agree to the terms of processing your data
                                 </label>
 
@@ -488,17 +509,12 @@
         </section>
         <!-- /.questions -->
 
-
-
-
-
-
-
     </div>
     <!-- body__wrapp -->
 
 
     <footer class="footer " id="footer">
+        <a href="#" name="footer"></a>
         <div class="container">
             <div class="wrapp">
                 <div class="footer__wrapp">
@@ -650,7 +666,7 @@
         </div>
         <!-- /.modal__content -->
     </div>
-    <script src="./js/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
 
 
